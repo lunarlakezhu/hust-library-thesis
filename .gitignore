@@ -1,0 +1,17 @@
+# 运行期缓存：登录 cookie / 风控档案，含个人凭证，严禁提交
+.browser-profile/
+
+# 运行产物：检索 CSV、下载的 PDF 与全文 MD（受版权约束，严禁提交）
+out/
+
+# 引导脚本按本机生成的注册片段
+mcp_entry.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 打包产物
+dist/
+*.zip
